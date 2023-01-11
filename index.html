@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Pop It!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div><ul class="navbar">
+            <div class="navbar__logo">
+                <li class="navbar__item"><a href="" class="navbar__link navbar__link--left">ScopriPopIt.com</a></li>
+                <li class="navbar__item navbar__burger"><a href="javascript:void(0);" class="icon navbar__link" onclick="toggleBurger()"><i class="fa fa-solid fa-xmark"></i></a></li>
+            </div>
+            <div class="navbar__items"><li class="navbar__item navbar--item1"><a href="#perche" class="navbar__link">Perchè</a></li>
+            <li class="navbar__item navbar__item--right navbar--item2"><a href="#scopri" class="navbar__link">Quali</a></li>
+            <li class="navbar__item navbar__item--right navbar--item3"><a href="#cosa" class="navbar__link">Cosa</a></li>
+            </div>
+        </ul></div>
+        <div class="sec1">
+            <div class="sec1__left">
+                <h1 class="sec1__title">Pop It!</h1>
+                <h2 class="sec1__text">L'antistress che ha conquistato grandi e piccoli - Il gioco dell'estate dal divertimento assicurato</h2>
+                <a href="#scopri" class="btn btn--primary">APPROFONDISCI</a>
+            </div>
+            <div class="sec1__right"></div>
+        </div>
+        <div id="perche" class="sec2">
+            <h1 class="sec2__title">Perchè si chiama Pop It?</h1>
+            <p class="sec2__text">Il nome si spiega col fatto che, oltre a essere un anti-stress, ci si può giocare in due: a ogni turno un giocatore fa “scoppiare” col dito il numero di bolle che vuole, purché siano tutte sulla stessa riga, e perde il giocatore che fa l'ultimo pop.</p>
+        </div>
+        <div id="scopri" class="sec3">
+            <h1 class="sec3__title">Scoprili tutti!</h1>
+            <div class="sec3__row">
+                <div class="sec3__col sec3--col1">
+                    <img class="sec3__img" src="images/square.png"/>
+                    <div class="sec3__subt"><h3>Pop It Quadrato</h2></div>
+                    <a onclick="buttonPress()" class="btn btn--secondary">SCOPRI</a>
+                </div>
+                <div class="sec3__col sec3--col2">
+                    <img class="sec3__img" src="images/amongus.png"/>
+                    <div class="sec3__subt"><h3>Pop It Among Us</h2></div>
+                    <a onclick="buttonPress()" class="btn btn--secondary">SCOPRI</a>
+                </div>
+                <div class="sec3__col sec3--col3">
+                    <img class="sec3__img" src="images/round.png"/>
+                    <div class="sec3__subt"><h3>Pop It Rotondo</h2></div>
+                    <div><a onclick="buttonPress()" class="btn btn--secondary">SCOPRI</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="cosa" class="sec4">
+            <div class="sec4__left">
+                <h1 class="sec4__title">Cos'è il Pop It</h1>
+                <p class="sec4__text">Il Pop It è un simpatico e coloratissimo gioco che è diventato celebre grazie al popolare social TikTok. Di qualsiasi forma, è caratterizzato da una serie di palline da schiacciare. Si tratta, infatti, di un gioco antistress che imita il pluriball, l'involucro protettivo e plastico, per proteggere gli oggetti fragili.</p>
+            </div>
+            <div class="sec4__right"></div>
+        </div>
+        <div><ul class="navbar footer">
+            <li class="navbar__item"><a href="" class="navbar__link navbar__item--footerLogo navbar__link--left">ScopriPopIt.com</a></li>
+            <li class="navbar__item"><a href="https://en.wikipedia.org/wiki/Pop_it" class="navbar__link navbar__item--footer"><i class="fa-brands fa-wikipedia-w"></i> Scopri di più</a></li>
+            <li class="navbar__item"><a href="https://www.amazon.it/pop-it/s?k=pop+it" class="navbar__link navbar__item--footer"><i class="fa-brands fa-amazon"></i> Compra</a></li>
+            <li class="navbar__item"><a href="https://www.tiktok.com/search?q=pop%20it" class="navbar__link navbar__item--footer"><i class="fa-brands fa-tiktok"></i> Guarda</a></li>
+            <li class="navbar__item"><a href="https://www.youtube.com/watch?v=_VEUIyiSyhQ" class="navbar__link navbar__item--footer"><i class="fa-brands fa-youtube"></i> Ascolta</a></li></div>
+        </ul></div>
+    </body>
+</html>
